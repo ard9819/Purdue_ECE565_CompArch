@@ -1,0 +1,49 @@
+Q1a:
+grep -ri "op_class" part_1a_out/stats.txt
+
+Q1b:
+grep -ri "op_class" part_1b_out/stats.txt
+
+Q1c:
+grep -ri "cpi" part_1c_1_6/stats.txt
+grep -ri "cpi" part_1c_2_5/stats.txt
+grep -ri "cpi" part_1c_3_4/stats.txt
+grep -ri "cpi" part_1c_4_3/stats.txt
+grep -ri "cpi" part_1c_5_2/stats.txt
+grep -ri "cpi" part_1c_6_1/stats.txt
+
+Q2:
+grep -ri "cpi" ARM_baseline_bzip2/stats.txt
+grep -ri "cpi" ARM_baseline_sjeng/stats.txt
+grep -ri "cpi" ARM_baseline_libquantum/stats.txt
+grep -ri "cpi" part_2a_bzip2/stats.txt
+grep -ri "cpi" part_2a_sjeng/stats.txt
+grep -ri "cpi" part_2a_libquantum/stats.txt
+grep -ri "cpi" part_2b_bzip2/stats.txt
+grep -ri "cpi" part_2b_sjeng/stats.txt
+grep -ri "cpi" part_2b_libquantum/stats.txt
+grep -ri "cpi" part_2c_bzip2/stats.txt
+grep -ri "cpi" part_2c_sjeng/stats.txt
+grep -ri "cpi" part_2c_libquantum/stats.txt
+
+grep -ri "condIncorrect" ARM_baseline_bzip2/stats.txt
+grep -ri "condIncorrect" ARM_baseline_sjeng/stats.txt
+grep -ri "condIncorrect" ARM_baseline_libquantum/stats.txt
+grep -ri "condIncorrect" part_2a_bzip2/stats.txt
+grep -ri "condIncorrect" part_2a_sjeng/stats.txt
+grep -ri "condIncorrect" part_2a_libquantum/stats.txt
+grep -ri "condIncorrect" part_2b_bzip2/stats.txt
+grep -ri "condIncorrect" part_2b_sjeng/stats.txt
+grep -ri "condIncorrect" part_2b_libquantum/stats.txt
+grep -ri "condIncorrect" part_2c_bzip2/stats.txt
+grep -ri "condIncorrect" part_2c_sjeng/stats.txt
+grep -ri "condIncorrect" part_2c_libquantum/stats.txt
+
+Q3:
+grep -ri "cpi" ARM_baseline_bzip2/stats.txt
+grep -ri "cpi" ARM_baseline_sjeng/stats.txt
+grep -ri "cpi" ARM_baseline_libquantum/stats.txt
+grep -ri "cpi" part_3_bzip2/stats.txt
+grep -ri "cpi" part_3_sjeng/stats.txt
+grep -ri "cpi" part_3_libquantum/stats.txt
+
