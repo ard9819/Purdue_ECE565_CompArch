@@ -1,0 +1,6 @@
+# pack-refs with: peeled fully-peeled 
+9321c8f49edbc70fd56a90856b68bd93e322aa98 refs/remotes/origin/develop
+0879e6e545adde5bcd670169293de96510b4282d refs/remotes/origin/feature-gui
+3e61e01021e7a832b8bc45ff3c9993e791ebdbdc refs/remotes/origin/master
+82d7aa5316d5aa1b7ba0794edde524f8bc9366ec refs/remotes/origin/release-staging-v20.1.0.0
+05d33559bda4602e13245d1e49861e81b1cdf5b9 refs/remotes/origin/stable
