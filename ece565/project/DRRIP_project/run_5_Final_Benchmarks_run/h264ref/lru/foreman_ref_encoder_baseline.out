@@ -1,0 +1,14 @@
+Setting Default Parameters...
+Parsing Configfile /home/min/a/ece565/benchspec-2020/CPU2006/464.h264ref//data/ref/input/foreman_ref_encoder_baseline.cfg.....................................................................................................
+
+------------------------------- JM 9.3 (FRExt) --------------------------------
+ Input YUV file                    : foreman_qcif.yuv 
+ Output H.264 bitstream            : foreman_qcif.264 
+ YUV Format                        : YUV 4:2:0 
+ Frames to be encoded I-P/B        : 120/0
+ PicInterlace / MbInterlace        : 0/0
+ Transform8x8Mode                  : 0
+-------------------------------------------------------------------------------
+  Frame  Bit/pic WP QP   SnrY    SnrU    SnrV    Time(ms) MET(ms) Frm/Fld   I D
+-------------------------------------------------------------------------------
+Fatal: cannot open Annex B bytestream file 'foreman_qcif.264', exit (-1)

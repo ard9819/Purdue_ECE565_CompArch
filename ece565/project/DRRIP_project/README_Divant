@@ -1,0 +1,43 @@
+ssh jain490@qstruct.ecn.purdue.edu
+
+cd ece565/project/gem5_org/
+
+
+1. Specify the new policy to be used in:
+/home/min/a/jain490/ece565/project/gem5_org/src/mem/cache/Cache.py
+
+2. Make a new class in python script:
+/home/min/a/jain490/ece565/project/gem5_org/src/mem/cache/replacement_policies/ReplacementPolicies.py
+
+3. Upadte the SConscript at:
+/home/min/a/jain490/ece565/project/gem5_org/src/mem/cache/SConscript
+
+4. Copy the lru_rp* and rename it to drrip_* in the directory:
+/home/min/a/jain490/ece565/project/gem5_org/src/mem/cache/
+
+5. Update the content in drrip_rp* files from LRU/lru TO DRRIP/drrip carefully
+
+6. NOTE: 
+You will find following include in drrip_rp.cc "
+	#include "params/DRRIPRP.hh"
+This file will be generated automatically, don't add any files in the build/ directory. After you build the gem5, you will find this file located at:
+/home/min/a/jain490/ece565/project/gem5_org/build/X86/params/DRRIPRP.hh (In case of X86)
+/home/min/a/jain490/ece565/project/gem5_org/build/ARM/params/DRRIPRP.hh (In case of ARM)
+
+7. Relevant Files:
+
+cd src/mem/cache/replacement_policies/
+gvim ReplacementPolicies.py replaceable_entry.hh base.hh brrip_rp.hh brrip_rp.cc drrip_rp.hh drrip_rp.cc -O
+
+cd src/mem/cache/tags/
+gvim ../cache_blk.hh base.hh base.cc base_set_assoc.hh base_set_assoc.cc -O
+
+cd configs/common/
+gvim CacheConfig.py Caches.py Options.py MemConfig.py -O
+
+gvim run_1.sh get_run_1_stats.sh -O
+gvim run_2_lru.sh run_2_srrip.sh run_2_brrip.sh run_2_drrip.sh get_run_2_stats.sh -O
+gvim run_3_lru.sh run_3_srrip.sh run_3_brrip.sh run_3_drrip.sh get_run_3_stats.sh -O
+gvim run_4_lru.sh run_4_srrip.sh run_4_brrip.sh run_4_drrip.sh get_run_4_stats.sh -O
+gvim run_5_lru.sh run_5_srrip.sh run_5_brrip.sh run_5_drrip.sh get_run_5_stats.sh -O
+

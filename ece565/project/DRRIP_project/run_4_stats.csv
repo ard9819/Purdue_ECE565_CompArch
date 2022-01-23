@@ -1,0 +1,41 @@
+
+sphinx3
+lru, 102462, 1.342247
+cactusADM
+lru, 1268927, 0.910084
+hmmer
+lru, 158783, 1.391291
+bzip2
+lru, 604640, 0.586743
+mcf
+lru, 15523598, 0.133226
+sphinx3
+srrip, 102467, 1.342355
+cactusADM
+srrip, 1264010, 0.911792
+hmmer
+srrip, 102988, 1.450477
+bzip2
+srrip, 576865, 0.587942
+mcf
+srrip, 15413103, 0.133869
+sphinx3
+brrip, 85734, 1.355631
+cactusADM
+brrip, 1130288, 0.944068
+hmmer
+brrip, 47744, 1.524380
+bzip2
+brrip, 517815, 0.592674
+mcf
+brrip, 15148714, 0.135253
+sphinx3
+drrip, 101934, 1.342721
+cactusADM
+drrip, 1133965, 0.942877
+hmmer
+drrip, 52828, 1.517065
+bzip2
+drrip, 577253, 0.587512
+mcf
+drrip, 15192101, 0.135082
